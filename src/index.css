@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+    width: 280px;
+    height: 150px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0, 0.7) 5px 5px 25px, rgb(0, 0, 0, 0.2) -5px 0px 150px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.time-text {
+    font-size: 50px;
+    margin-top: 0px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.time-sub-text {
+    font-size: 15px;
+}
+
+.day-text {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

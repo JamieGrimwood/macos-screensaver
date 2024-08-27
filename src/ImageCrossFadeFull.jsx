@@ -26,7 +26,7 @@ const ImageCrossFade = ({ imgUrl, width, height }) => {
                     priority
                     width={100000}
                     height={100000}
-                    className={`w-screen h-screen nodrag absolute z-10 rounded transition-opacity duration-1000 ${loaded ? "opacity-100" : "opacity-0"}`}
+                    className={`w-screen h-screen absolute z-10 rounded transition-opacity duration-1000 ${loaded ? "opacity-100" : "opacity-0"}`}
                 />
             )}
             {
@@ -39,7 +39,7 @@ const ImageCrossFade = ({ imgUrl, width, height }) => {
                     priority
                     width={100000}
                     height={100000}
-                    className={`w-screen h-screen rounded nodrag`}
+                    className={`w-screen h-screen`}
                 />)
             }
         </div>
