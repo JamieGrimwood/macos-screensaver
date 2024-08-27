@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .card {
-    width: 280px;
+    width: 300px;
     height: 150px;
     background: white;
     border-radius: 15px;
